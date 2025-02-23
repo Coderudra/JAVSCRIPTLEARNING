@@ -9,6 +9,7 @@ console.log({} + []); // 0
 console.log([] + []); // ""
 console.log([] - 1); // -1 ([] → 0)
 
+
 //edge cased in Coercion
 
 console.log("5" + true); // "5true" (string + boolean → concatenation)
