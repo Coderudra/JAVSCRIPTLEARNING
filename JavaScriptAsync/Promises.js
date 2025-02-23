@@ -65,8 +65,8 @@ function Task1(){
 //   .finally((x) => console.log(x));
 
 //Promise.any Resolves as soon as any one promise fulfills.
-// Promise.any([
-//     Promise.reject("Error 1"),
-//     Promise.resolve("Success 1"),
-//     Promise.resolve("Success 2")
-// ]).then(result => console.log(result)); // "Success 1"
+Promise.any([
+    Promise.reject("Error 1"),
+    Promise.resolve("Success 1"),
+    Promise.resolve("Success 2")
+]).then(result => console.log(result)); // "Success 1"
